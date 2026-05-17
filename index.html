@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ur">
+<html lang="ur" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,42 +8,59 @@
         body {
             background-color: #1a1a1a; /* Matte Black */
             color: #ffffff;
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
         }
         header {
             background-color: #ff6600; /* Orange */
-            padding: 50px 20px;
+            padding: 60px 20px;
+            border-bottom: 5px solid #cc5200;
         }
-        h1 { margin: 0; font-size: 2.5em; }
-        .slogan { font-style: italic; font-size: 1.2em; margin-top: 10px; }
-        .content { padding: 40px 20px; }
+        h1 { margin: 0; font-size: 2.5em; text-transform: uppercase; letter-spacing: 1px; }
+        .slogan { font-style: italic; font-size: 1.2em; margin-top: 10px; opacity: 0.9; }
+        .content { padding: 50px 20px; }
+        h2 { color: #ff6600; font-size: 1.8em; margin-bottom: 20px; }
+        p { font-size: 1.1em; line-height: 1.8; max-width: 600px; margin: 0 auto 30px auto; color: #dddddd; }
+        
+        /* WhatsApp Button */
         .btn {
-            background-color: #ff6600;
+            background-color: #25D366; /* WhatsApp Green */
             color: white;
-            padding: 15px 30px;
+            padding: 15px 35px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 50px;
             font-weight: bold;
-            display: inline-block;
-            margin-top: 20px;
+            font-size: 1.2em;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            transition: 0.3s;
         }
-        footer { padding: 20px; font-size: 0.8em; color: #888; }
+        .btn:hover { transform: scale(1.05); background-color: #1ebe57; }
+        
+        footer { padding: 30px; font-size: 0.85em; color: #777; border-top: 1px solid #333; margin-top: 50px; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>H-Nova Solar Technology</h1>
+        <h1>H-Nova Solar</h1>
         <p class="slogan">Lighting the Way Forward</p>
     </header>
 
     <div class="content">
-        <h2>جدید سولر سلوشنز</h2>
-        <p>ہم آپ کے لیے لائے ہیں 2.5kW سے 7kW تک کے بہترین انورٹرز اور سولر ٹیکنالوجی۔</p>
-        <a href="https://wa.me/yournumber" class="btn">رابطہ کریں</a>
+        <h2>جدید سولر اور انورٹر سروسز</h2>
+        <p>
+            ہم مردان میں 2.5kW سے 7kW تک کے بہترین انورٹرز کی تیاری اور سولر سسٹم کی تنصیب کے ماہر ہیں۔ 
+            معیاری پرزہ جات اور بہترین سروس ہماری پہچان ہے۔
+        </p>
+        
+        <a href="https://wa.me/923129166677" class="btn">
+            واٹس ایپ پر رابطہ کریں
+        </a>
     </div>
 
     <footer>
